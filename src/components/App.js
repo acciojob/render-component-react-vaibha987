@@ -10,6 +10,7 @@ const App = () => {
   )
   
 }
+React.DOM.render(<p/>,document.getElementById("main"))
 React.DOM.render(<App/>,document.getElementById("root"))
 
 export default App;
